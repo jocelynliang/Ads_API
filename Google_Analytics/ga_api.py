@@ -137,5 +137,3 @@ def readData(days=3):
     print(final_res)
     
     return final_res
-
-
