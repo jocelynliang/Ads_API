@@ -16,7 +16,7 @@ def main(days=3):
     
     # get connected
     client = adwords.AdWordsClient.LoadFromStorage('./googleads.yaml')
-    client.SetClientCustomerId('3275422553')
+    client.SetClientCustomerId('customer id here')
     
     # run the functions
     df_campaign = getCampaignInfo(start_date, end_date, client)
