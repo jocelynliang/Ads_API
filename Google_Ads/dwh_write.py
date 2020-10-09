@@ -2,7 +2,7 @@ import pyodbc as pdb
 
 def writeData(data):
     # get connected
-    conn = pdb.connect("DRIVER={Ingres CS};SERVER=@av-5MN7wYA8K.avprod.actiandatacloud.com,27832;DATABASE=db;UID=dbuser;PWD=dwhD454n1")
+    conn = pdb.connect("connection string here")
     cursor = conn.cursor()
     
     #cursor.execute("set autocommit off")
